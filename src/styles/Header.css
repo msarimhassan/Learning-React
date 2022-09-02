@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #444444;
+    color: white;
+    padding: 50px 0px;
+}
+
+.hightlighted-text{
+color: #E5E55B;
+}
