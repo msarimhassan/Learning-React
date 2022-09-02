@@ -9,7 +9,7 @@ const routes = (token) => {
     const publicRoutes = [
         {
             path: '/',
-            element: <Home />,
+            element:  <Home />,
         },
     ];
     const privateRoutes = [
@@ -28,3 +28,9 @@ const Routes = () => {
 };
 
 export default Routes;
+
+
+
+// without auth guards
+// const routes=useRoutes([...allRoutes])
+// return routes
